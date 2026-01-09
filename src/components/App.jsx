@@ -1,10 +1,11 @@
+import BoxList from './BoxList'
 import '../styles/App.css'
 
 function App() {
   
   return (
     <>
-      <h1>App</h1>
+      <BoxList />
     </>
   )
 }

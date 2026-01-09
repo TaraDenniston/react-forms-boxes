@@ -1,14 +1,14 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render } from '@testing-library/react';
+import BoxList from './BoxList';
 import { describe, it, expect } from 'vitest';
 
-describe('App', () => {
+describe('BoxList', () => {
   it('renders without crashing', () => {
-    render(<App />);
+    render(<BoxList />);
   });
 
   it("matches snapshot", function() {
-    const { asFragment } = render(<App />);
+    const { asFragment } = render(<BoxList />);
     expect(asFragment()).toMatchSnapshot();
   });
 });
