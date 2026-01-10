@@ -1,10 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BoxList > matches snapshot 1`] = `
+exports[`NewBoxForm > matches snapshot 1`] = `
 <DocumentFragment>
-  <p>
-    NewBoxForm component goes here
-  </p>
   <form>
     <label
       for="color"
@@ -46,28 +43,5 @@ exports[`BoxList > matches snapshot 1`] = `
       Make New Box
     </button>
   </form>
-  <p>
-    All box components go here
-  </p>
-  <div>
-    <div
-      style="background-color: red;"
-    >
-      <p>
-        This is a box
-      </p>
-      <ul>
-        <li>
-          color: red
-        </li>
-        <li>
-          width: 100
-        </li>
-        <li>
-          height: 100
-        </li>
-      </ul>
-    </div>
-  </div>
 </DocumentFragment>
 `;

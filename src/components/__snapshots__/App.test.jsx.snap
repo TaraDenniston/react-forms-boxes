@@ -3,10 +3,71 @@
 exports[`App > matches snapshot 1`] = `
 <DocumentFragment>
   <p>
-    Box component goes here
-  </p>
-  <p>
     NewBoxForm component goes here
   </p>
+  <form>
+    <label
+      for="color"
+    >
+      Color
+    </label>
+    <input
+      id="color"
+      name="color"
+      placeholder="color"
+      type="text"
+      value=""
+    />
+    <label
+      for="width"
+    >
+      Width
+    </label>
+    <input
+      id="width"
+      name="width"
+      placeholder="width"
+      type="text"
+      value=""
+    />
+    <label
+      for="height"
+    >
+      Height
+    </label>
+    <input
+      id="height"
+      name="height"
+      placeholder="height"
+      type="text"
+      value=""
+    />
+    <button>
+      Make New Box
+    </button>
+  </form>
+  <p>
+    All box components go here
+  </p>
+  <div>
+    <div
+      style="background-color: red;"
+    >
+      <p>
+        This is a box
+      </p>
+      <ul>
+        <li>
+          color: red
+        </li>
+        <li>
+          width: 100
+        </li>
+        <li>
+          height: 100
+        </li>
+      </ul>
+    </div>
+  </div>
 </DocumentFragment>
 `;

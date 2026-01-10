@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Box > matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      This is a box
+    </p>
+    <ul>
+      <li>
+        color: 
+      </li>
+      <li>
+        width: 
+      </li>
+      <li>
+        height: 
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
