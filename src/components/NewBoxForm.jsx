@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-const NewBoxForm = () => {
+const NewBoxForm = ({ addBox }) => {
   const INITIAL_STATE = {
     color: '',
     width: '',
@@ -14,9 +14,14 @@ const NewBoxForm = () => {
       [name]: value
     }))
   }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    addBox(formData.color, formData.width, formData.height);
+    setFormData(INITIAL_STATE);
+  }
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="color">Color</label>
       <input 
         id="color"
