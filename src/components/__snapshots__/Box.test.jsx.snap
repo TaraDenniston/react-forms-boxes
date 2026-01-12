@@ -2,21 +2,20 @@
 
 exports[`Box > matches snapshot 1`] = `
 <DocumentFragment>
-  <div>
-    <p>
-      This is a box
-    </p>
-    <ul>
-      <li>
-        color: 
-      </li>
-      <li>
-        width: 
-      </li>
-      <li>
-        height: 
-      </li>
-    </ul>
+  <div
+    class="box-container"
+  >
+    <div
+      class="box"
+      data-testid="box"
+    />
+    <div>
+      <button
+        class="delete-button"
+      >
+        X
+      </button>
+    </div>
   </div>
 </DocumentFragment>
 `;
