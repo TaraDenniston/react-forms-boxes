@@ -1,19 +1,15 @@
+import '../styles/Box.css';
 
 
 const Box = ({color, width, height}) => {
   const boxStyle = {
     backgroundColor: color,
-    width: width,
-    height: height
+    width: width + 'px',
+    height: height + 'px'
   };
   return (
-    <div style={boxStyle}>
-      <p>This is a box</p>
-      <ul>
-        <li>color: {color}</li>
-        <li>width: {width}</li>
-        <li>height: {height}</li>
-      </ul>
+    <div className="box-container" >
+      <div className="box" style={boxStyle}></div>
     </div>
   )
 }
