@@ -5,8 +5,8 @@ import Box from './Box'
 const BoxList = () => {
   const INITIAL_STATE = [];
   const [boxes, setBoxes] = useState(INITIAL_STATE);
-  const addBox = (color, width, height) => {
-    setBoxes(boxes => [...boxes, {color, width, height}]);
+  const addBox = (newBox) => {
+    setBoxes(boxes => [...boxes, { ...newBox }]);
   }
 
   return (

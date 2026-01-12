@@ -9,7 +9,10 @@ const Box = ({color, width, height}) => {
   };
   return (
     <div className="box-container" >
-      <div className="box" style={boxStyle}></div>
+      <div className="box" style={boxStyle} data-testid="box"></div>
+      <div>
+        <button className="delete-button">X</button>
+      </div>
     </div>
   )
 }
